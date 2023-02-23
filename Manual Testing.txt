@@ -1,0 +1,178 @@
+Feb 20th - Monday 
+
+Manual Testing 
+
+Software : set of instructions or programs to accomplish some task
+
+e.g : calculator , whatsapp etc ..
+
+Types of Softwares:
+
+1 . System Software :
+
+e.g - Operating System , drivers etc..
+
+2. Programming Software : 
+
+e.g : compiler , interpreters , debugging tools etc ..
+
+
+3. Applictaion Softwares:
+
+e.g : Web Applictaions , mobile apps , mainframe apps , silverlite apps , SAP apps
+
+
+Testing:
+
+It's a process of checking developed software is working as per client business requirments
+or not
+
+-> to find defects or bugs
+
+- > primary motto of testing is to deliver a quality and a risk free product
+
+
+
+what to test in now-a-days applications (web or mobile ) ?
+
+- Funcationalities 
+- GUI(graphical user interafce)
+- Load Testing
+- Performance Testing
+- Security Testing
+- Usability 
+
+how to test ?
+
+1. Manual Testing
+
+Testing activity carried out for testing software applications using Man effort 
+Then it is called Manual Testing
+
+2.Automation Testing :
+
+Testing activity carried out for testing software applications using 
+some tools or programs .
+
+Then it is called Automation Testing
+
+
+Automation :
+
+The process of converting Test Cases into Test Script using some tools
+
+
+Terminilogies in Software development or testing :
+
+Product : 
+
+if a software application developed for multiple users 
+
+
+
+Project : 
+
+if a software application developed for a speicific or single user or organization 
+
+
+********************************************************
+Feb 21st - Tuesday
+
+ Terminilogies in Software development or testing  (Cont ...)
+ 
+ 
+ - Error 
+ 
+ Any incorrect human action or mistakes which gives wrong results
+ 
+ - Defect / Bug / Fault / Issue :
+ 
+ Deviation between expected Behaviout to Actual Behaviour of the system is called Defect.
+ 
+ 
+ - Failure / Incident :
+ 
+ If an end user identifies a defect while using software application
+ Then it is called Failure.
+ 
+ 
+ Note : 
+ 
+ presence of errors results in Defects and Presence of defects will results in Failure
+ 
+ 
+ 
+ why do a software application have defects ?
+ 
+ 
+ 1) Incorrect requirments
+ 2) Wrong Design
+ 3) Wrong Coding 
+ 4) poor Coding
+ 5) complex architecture
+ 6) work pressure or time pressure
+ 7) frequently changing business requirments
+ 
+ 
+ 
+********************************************************
+Feb 23rd  - Thursday
+
+
+Now-a-days TEsting :
+
+It's a process of checking are we developing  right software and also checking developed software
+working as per client business requirements or not
+
+
+Software Testing = Verifaction + Validation 
+
+Verifictaion : It is process of checking are we developing right software or not
+
+It is also called as Static Testing
+
+Validation :It is process of checking developed  software is working as per client requirement or not
+
+
+It is also called as Dynamic Testing
+
+
+-------------------------------------------------------
+
+what are roles and duties of tester ?
+
+1)Understanding application under Test (AUT)
+
+2)Formal Testing ( writing and executing test cases)
+
+3)Adhoc Testing or Informal (NO TEst Cases)
+
+4) Finding defects and report to developers
+
+5) Retesting and Regression Testing
+
+6) Developing automation test scripts
+
+7) executing automation test scripts
+
+8) Analyse Test Reports
+
+9) Prepare Test Report 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
