@@ -161,6 +161,88 @@ what are roles and duties of tester ?
 
 
 
+********************************************************
+Feb 24th  - Friday
+
+Software Testing Principles :
+
+1. Exhaustive Testing is impossible
+
+If we test a functionality with all possible valid inputs and Invalid inputs 
+then it is called exhaustive testing.
+
+In simple words , testing everything is called exhaustive testing.
+
+If we check login with all registered users then it is called exhaustive testing.
+which is practically impossible.
+
+Instead of validating all user , we choose few from each category and then validate.
+
+2. Defect Clustering :
+
+sometimes a small functionality may produce more number of defects when compared to bigger functionality
+
+for e.g , Registration functionality might have many field in it's page 
+compare to payment gateway page .
+
+but there will be complex business logic runs behind payement gateway page.
+
+so here we need to put more effort on Payment gateway page compared to registration page.
+
+
+3. Pesticide Paradox 
+
+If prepared test cases are not able to find defects.
+Then add more test cases or modify test cases if required for better testing 
+
+
+4. Early Testing
+
+Conducting testing as soon as possible in the development life cycle .
+
+
+Testing right from requirements phase is called Early Testing.
+
+5. Testing is application dependent / situation dependent :
+
+TEst approach may slightly vary from project to project.
+
+for e.g : Testing a calculator application is different from testing shopping application
+
+As calculator application is a desktop application , there is no need of Load or Performance testing
+
+
+Testing is situation dependent.
+
+sometimes test approach may slightly change based on time availabilty , resource availabilty and cost.
+
+i.e if sufficient time availabilty you will go for both Formal and Informal testing
+otherwise only Formal Testing
+
+
+6. Testing should show presence of defects 
+
+Always testing should be carried out with an intention of finding defects .
+
+We have to find defects before customer find them.
+
+This can be achived by doing negative testing .
+
+
+7. Absence of defects is a fallacy 
+
+
+8919146429
+
+
+
+
+
+
+
+
+
+
 
 
 
