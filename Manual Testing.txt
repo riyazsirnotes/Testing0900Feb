@@ -235,19 +235,56 @@ This can be achived by doing negative testing .
 8919146429
 
 
+********************************************************
+Feb 27th  - Monday 
+
+
+Software Developement Life Cycle (SDLC) :
+
+
+
+SDLC Models :
+
+
+A SDLC model will explain how various development activities implemented in a project.
+
+SDLC Models are classified in two types
+
+									SDLC
+									
+			Sequential Models						Incremental Models
+			
+			1. Waterfall Model						1. RAD (Rapid Application Developement)
+			2. V-Model							    2. Protype Model
+													3. Spiral Model
+													4. Agile Model
+
+1. Waterfall Model	
+
+Waterfall model is well suited for developing small size projects where requirements are very clear
+
+2. V-Model
+
+V-Model model is well suited for developing small size projects 
+where requirements are not clear
 
 
 
 
+1. RAD Model :
+
+RAD  model is suitable for big projects which to be completed in short span of time.
+
+2. Prototype Model :
+
+Protoype model is best suited for developing big size projects , we opt thisfor the following two
+scenarios.
+
+i. if customer providing a reference application
+ii. If customer requirements are not clear
 
 
-
-
-
-
-
-
-
+3. Spiral Model 
 
 
 
