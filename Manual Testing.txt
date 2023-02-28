@@ -288,6 +288,106 @@ ii. If customer requirements are not clear
 
 
 
+********************************************************
+Feb 28th  - Tuesday
+
+
+SoftWare Testing = Verification + Validation
+
+Static Testing :
+
+It's a process of chekcing are we developing right software or not
+It's carried out in organization through reviews
+
+Review :
+
+Examing a project related task is a review.
+
+Requirement Reviews :
+
+Reviews carried out by domain experts to find mistakes at requirment phase 
+ 
+Design Reviews : 
+
+Reviews carried out by system  experts to find mistakes in Design
+
+Code Reviews :
+
+These reviews are carried out by senior developers to find any deviations in coding standards
+
+Test Cases Reviews :
+
+These review are carried out by senior testers preferably Test leads to check the test cases are
+enough to test the project.
+
+
+Formal Reviews :
+
+If any review activity carried out by following proper review procedures or guidelines .
+
+
+Inspection and Audit are the best examples for Formal Reviews.
+
+Inspection : if a formal review carried out while executing a task
+
+Audit : if a formal review carried out after execution of task
+
+Peer reviews : reviews done within peers
+
+Walk Through's:
+
+Knowledge Transfer sesions conducted 
+
+-----------------------------------------------------
+Dynamic Testing 
+
+
+White Box Testing :
+
+Testing conducted on the source code by developers to make sure developed code is working as expected
+
+
+Unit Testing :
+
+A smallest part in source code of application such as programs, functions etc  are called units
+
+Testing conducted on this units is called Unit Testing
+
+
+Integration Testing :
+
+once all units are tested ,  programs are combined together.
+
+Testing conducted on overall output is called Integration Testing.
+
+Black BOx Testing :
+
+Once Integration testing is done , the source is coverted to executable format 
+called Build or exe file and deployed into system.
+
+Testing conducted on System or developed applictaion is called Black box testing.
+
+
+--------------------------------------------------
+
+Functional System Testing Types :
+
+1) Smoke Testing :
+
+It is a kind of quick test or rough test performed on given application or build to decide
+whether it is eligible for further detailed testing or not
+
+
+what to be verified in smoke Testing ?
+
+- we have to check all major functionalities are available ?
+- we have to check the given application is consistently operable or not 
+
+
+Objective of smoke testing is to make sure whether given application is testable or not
+- not to find defects
+
+
 
 
 
