@@ -389,6 +389,136 @@ Objective of smoke testing is to make sure whether given application is testable
 
 
 
+********************************************************
+Mar 1st  - Wednesday
+
+Functional System Testing Types :(Cont ...)
+
+2) Formal Testing :
+
+
+If we test a s/w application by following proper procedures and proper documentation.
+
+In simple words , writing test cases and executing test cases.
+
+suitable or recommended for maintenance projects.
+
+
+3)Adhoc Testing :
+
+
+If we test a s/w application by without following proper procedures and proper documentation(NO Test cases).
+
+- It is recommended for small or quick projects.
+- it is recommended for maintenance projects after formal testing 
+
+4) Priority Based Testing :
+
+It is a process of deciding what to be tested first , what to test next and what to test last.
+
+In other words , identifying important features in the product and testing them in order.
+
+5) ReTesting :
+
+It is a process of validating reported defects/bugs are correctly resolved or not in modified  build.
+
+6) Regression Testing :
+
+It is a process of validating various functionalities in the modified build , where there is 
+a chance of getting side effects.
+
+7)Sanity Testing :
+
+It is a process of validtaing functionalities depends on bug found in production .
+basically , Sanity testing is subset of regression  
+
+
+8)End to End Testing :
+
+It is process of checking overall functionalities of the system from begining to end.
+
+This will be carried out by seniors testers preferably teste lead to make decission whether to stop
+testing or not .
+
+
+Special Functional System Testing :
+
+1. Bench Mark Testing :
+
+It is a process of comparing our product with an established product in market.
+
+
+2. Exploratory Testing :
+
+Exploratoring the applictaion , understanding the applictaion then testing it.
+
+in two scenarios , we go for exploratory testing
+
+- if requirement documentation is not availabile
+
+- if requirements documentation is not providing sufficient inputs 
+
+3. Monkey Testing :
+
+Wantedly performing uneven operations or zig-zag operations with an intension of
+making system failure is called monkey testing .
+
+-----------------------------------------------------------------
+
+Non Functional Testing :
+
+Testing performed to check reponsiveness , stability and security etc aspects are 
+called Non Functional testing .
+
+WE check following paramters:
+
+
+time
+
+speed 
+
+user data volume 
+
+
+1. Performance Testing :
+
+		Load Testing
+		Stress Testing
+		Volume Testing 
+		
+these testing are done using tools 
+
+jmeter ,load runner , neo load etc ...
+
+Performance Testing :
+
+testing the response time of application under different conditions 
+
+Load TEsting :
+
+testing the stability of the system under different loads .
+
+we increase the load gradually and test the s/m
+
+Stress Testing :
+
+Suddenly increasing the load and checking stability
+
+Volume Testing :
+
+Here we test the user data volume capacity that s/m can hold
+
+Security Testing :
+
+Testing the security aspects .
+
+
+
+
+
+
+
+
 
 
 
