@@ -514,7 +514,112 @@ Testing the security aspects .
 
 
 
+********************************************************
+Mar 2nd  - Thursday
 
+Globalization or Internationalization or I18N testing :
+
+It is a process of checking end user having a choice to configure different language options
+
+(currency  ,date and time format )
+
+Localization Testing :
+
+It's a process of chekcing default format , currancy or language for the product designed for 
+a specific locality of users.
+
+
+
+Recovery Testing :
+
+It's a process of checking how does our application handling unexpected or unpredictable 
+situation's like power failure ,system crash , internet issues etc ..
+
+
+Installation Testing :
+
+It's a process of checking are we able to install the software successfully or not 
+as per guidelines given in installation document.
+
+
+UnInstallation Testing :
+
+It's a process of checking are we able to uninstall the s/w successfully or not
+
+also the data clean up.
+
+
+----------------------------------------------------------
+
+User Acceptance Testing :
+
+Testing carried out by the end user on the delivered product to make sure whether is ready for production.
+
+UAT testing carried out in two ways :
+
+1. Aplha Testing :
+
+It is first level of Acceptance testing carried out within company premises.
+
+2. Beta Testing :
+
+
+It is last level of Acceptance testing carried out at customer premises
+
+-----------------------------------------------------------------------------
+
+Module 2
+
+Software Testing Project :
+
+
+Test Planning :
+
+It is the first phase of s/w testing where management defines the test strategy and Test plan to 
+execute the work smootly.
+
+Test Strategy :
+
+It is a high level plan and approach defined by management that explains how current project will be tested.
+
+
+In general , test strategy will be defined by Project Manager or Test MAnager.
+
+TEst Plan :
+
+It is a detailed work plan that explains 
+
+	-> scope of testing 
+	-> test approach
+	-> resources
+	-> work schedules 
+	
+	
+	
+Test Plan consists of following sections
+
+1)Project Overview
+
+2)Document References 
+
+3) Scope of testing :
+
+	3.1 In Scope (features to be tested)
+	3.2 Out Scope (features not to be tested or NFT)
+	
+4) Test Strategy
+
+5) Test Environment
+
+6) Test Deliverable 
+
+7) Staffing Plan 
+
+8) Risk Planing 
+
+9) Work Schdueles
+
+10)Approvals / sign offs
 
 
 
