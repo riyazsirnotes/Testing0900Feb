@@ -605,7 +605,7 @@ Test Plan consists of following sections
 3) Scope of testing :
 
 	3.1 In Scope (features to be tested)
-	3.2 Out Scope (features not to be tested or NFT)
+	3.2 Out Scope (features not to be tested or NFT non Functional Testing or NFR )
 	
 4) Test Strategy
 
@@ -620,6 +620,90 @@ Test Plan consists of following sections
 9) Work Schdueles
 
 10)Approvals / sign offs
+
+
+
+********************************************************
+Mar 3rd  - Friday
+
+https://demo.guru99.com/v4/
+
+Access details to demo site.
+User ID :	mngr266311
+Password :	Admin123$
+
+
+
+********************************************************
+Mar 6th  - Monday
+
+Test Deisgn Phase :
+
+Test Scenario :
+
+a feature / behaviour / functionality that to be tested in AUT (application under test)
+
+what to test ?
+
+
+Few Scenario's for Calculator Application :
+
+1. check addition
+2. check subraction
+3. check multiplcation
+4. check division
+5. check sqaure 
+etc ..
+
+
+Few Scenario's for Mobile device :
+
+1. check switch on/offs
+2. check secutity ( face id or finger pin or pin)
+3. check sim card compatability
+4. check battery
+5. check volume 
+6. check call out going
+7. check call incoming 
+8. check SMS sending
+9. check SMS recieving 
+
+etc...
+
+
+Test Case :
+
+How to test ?
+
+to test  a functionality  under different conditions
+
+?????????????????????????????????????????????????
+
+Assignment 
+
+1. Write Test Scenario's for Naukri registration
+
+use the Test Scenario template shared with you in github
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
