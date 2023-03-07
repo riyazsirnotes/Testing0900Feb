@@ -686,10 +686,46 @@ Assignment
 use the Test Scenario template shared with you in github
 
 
+********************************************************
+Mar 7th  - Tuesday
+
+Test Deisgn Phase :
+
+Test Case :
+
+A set of pre-conditions , test procedures , input data (test data) and expected behaviour
+of the system planned by tester to validate a functionality/feature in Project or AUT 
+is called Test Case .
+
+In simple words ,
+
+how to test a Test Scenario is nothing but Test Case 
 
 
+????????????????????????????????????????????????????????
+Assignment :
+
+Completed the Test Case Write up for Adactin Hotel Application
+and
+
+Also complete the Test case write up for Naukri Registration functionality
 
 
+???????????????????????????????????????????????????????
+
+
+Test Case Design Techniques :
+
+
+To avoid exhaustive testing and to ensure 100 % requirement coverage
+and to finf defects and also to reduce test cases count we follow techniques for S/W testing
+
+1)Equivalnce Class Partioning (ECP)
+2)Boundary Value Analysis (BVA)
+3)Decission Table Testing
+4)State Transition Testing 
+5) Use Case Based Testing 
+6) Error guessing
 
 
 
