@@ -728,6 +728,86 @@ and to finf defects and also to reduce test cases count we follow techniques for
 6) Error guessing
 
 
+********************************************************
+Mar 8th  - Wednesday
+
+1)Equivalnce Class Partioning (ECP)
+
+It is one of the test case design techniques which helps us to reduce or minimize the count of test cases.
+
+according to ECP , identify all possible i/p conditions to validate functionality then4
+divide them into groups . while making a group make sure that all i/p's that belongs to that group
+is producing same logical o/p. 
+Then consider , atlease one input from each group preferably middle value for testing .
+
+
+
+2)Boundary Value Analysis (BVA)
+
+This technique also useful for minimizing the count of Test cases.
+
+It has practically proven that most of the developers making mistakes while specifying boundary conditions
+such as greater than  , less than , > = , <= .
+
+
+According to BVA, we have to identify the partitions  where there are ranges , then we  have to consider 
+lower boundary value , upper boundary value , LBV-1 , UBV + 1  for testing .
+
+
+??????????????????????????????????
+
+Assignment
+
+-------------------------------------------
+S.No   |  Amount          | Service Charge |
+--------------------------------------------
+ 1     | 1000-10,000      |    10          |
+ 2     | 10,001 - 50,000  |    20          |
+ 3     | 50,001 - 1,00,000|    30          |
+--------------------------------------------
+
+if amount is < 1000 or > 1,00,000 Transfer can't happen
+
+
+3)Decission Table Testing
+
+If the output of a functionality depends on mulitple inputs definitely developer will use 
+logical operators such as AND , OR , etc in source code..
+
+There is chance , in place of AND operators by mistake he might have OR operator which may result in 
+deviations or defects.
+
+In this case , we use decission table testing to find out those kind of defects.
+
+???????????????????????????????????
+
+New Customer    25%      15%
+
+Existing Cutomer 10 %     15%
+
+
+here 3 i/p New customer , Old customer ,coupon 
+
+o/p discount
+
+??????????????????????????????????????????????????
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
