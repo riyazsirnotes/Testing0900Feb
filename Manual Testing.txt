@@ -793,6 +793,75 @@ o/p discount
 ??????????????????????????????????????????????????
 
 
+********************************************************
+Mar 9th  - Thursday
+
+
+4)State Transition Testing  or Navigation Testing 
+
+A software application will navigate from one page to another page based on input data and based on user actions
+
+
+State Transition testing is a process of checking does the system is navigating properly or not for various user actions 
+
+
+5) Use Case Based Testing :
+
+Use Case : describes the requirment
+
+Actor : which is the user , which can be single user or group of people interacting with process.
+
+Action : which is to reach final outcome .
+
+Goal /Outcome :  which is the successful user outcome.
+
+
+Three flows :
+
+-> Basic Flow
+
+-> Alternate Flow
+
+-> Exception Flow
+
+
+6) Error guessing
+
+It is a kind of Experiences based Test Design Techniques
+
+Here tester based on his previous experience will write some Test cases 
+which can give some exceptional errors 
+
+------------------------------------------
+Requirement Tracability Matrix 
+
+Mapping the requirements to Test Cases using a Matrix or table is called RTM
+
+Here ,  We have requirements . For Each requirement we will have Use cases 
+
+using use Case we will derive test scenarios and which we will test cases.
+
+
+----------------------------------------------
+Test Case Summary report
+
+
+====================================================================================
+
+Test Execution Phase :
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
