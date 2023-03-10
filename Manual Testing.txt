@@ -853,6 +853,200 @@ Test Execution Phase :
 
 
 
+********************************************************
+Mar 10th  - Friday
+
+Test Execution Phase :
+
+In this phase we execute planned test cases on the given build.
+
+The following are the major work iteams carried out in this pahse.
+
+1. Build Deployment
+
+2. Build Acceptance Testing (Smoke Testing)
+
+3. Executing test cases (Formal Testing)
+
+4. Documenting and reporting defects
+
+5. Conduct retesting on the modified build 
+
+6. Conducting regression testing on modified build
+
+7. Conducting end-to-end testing on Final build
+
+
+1. Build Deployment :
+
+
+Once code developed and tested (WBT) by developers.
+This source code is compiled into excutable application called build .
+
+in Web apps : 
+
+you will be given a URL (where build is deployed)
+
+e.g :  www.testa.amazon.com
+       www.qa1.jpmc.com
+	   
+In Mobile apps :
+
+Android :
+
+you will be given .apk file or the path where .apk exists in App Center
+
+iOS:
+
+you will be given .ipa file or the path where .ipa exists in App Center
+
+
+
+for every build developer will share below 2 documents
+
+i) SRN (SoftWare Release Notes)
+
+a) Dev team information
+b) Testing team information
+c) build path ( can be URL or app center link witj build number)
+d) known issues
+e) Regression testing scenarios  if applicable
+f) Approvals
+
+
+
+ii) DD (Deployment Document)
+
+This document will explain hardware requirements , software requirements procedures.
+
+2. Build Acceptance Testing (Smoke Testing) :
+
+
+After deploying the build we will perform smoke testing to make sure given application
+is testable or not ( means for further detailed testing)
+
+if not testable , we will reject the build.
+
+Note : here we are not raising defects.
+
+
+3. Executing test cases (Formal Testing)
+
+If smoke testing passes , we will start executing test based on priority.
+
+P0 - Very High
+P1 - High
+P2 - Medium
+P3 - Low
+
+While excuting test steps we should update Actual results then compare with expected results.
+
+if both are matched , we update step result as passed.
+
+
+one test case contains many steps , if all steps are passed ,then we update in Test Case Summary report ,
+test case is passed.
+
+
+Defect / Bug / Issue :
+
+
+1. Reproducible Defect :
+
+
+if a defect occuring every time then it is called reproducible defect.
+
+
+
+2. Defect Severity :
+
+The impact of the defect or how serious the defect is 
+
+1.Very high /  Critical
+2. High    /Major
+3. Medium / Medium
+4. Low / Minor
+
+Note : Defect severity is decided by testers beacuse testers know the business requirements well
+
+and also domain knowledge
+
+
+3. Defect Priority :
+
+
+the order in which defect to be resolved .
+
+1.Very high /  P0
+2. High    / P1
+3. Medium / P2
+4. Low / P3
+
+Note : Defect priority is decided by developer as he know better which one takes more time or less for fixing.
+
+
+????????????????????????????????????????????
+
+Assignment
+
+http://adactinhotelapp.com/resources/KnownDefects_HotelApp.pdf
+
+raise atleast 5 defects using our Defect Template 
+
+
+?????????????????????????????????????????????
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   
+	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
