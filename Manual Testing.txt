@@ -998,6 +998,44 @@ raise atleast 5 defects using our Defect Template
 
 
 
+********************************************************
+Mar 11th  - Saturday
+********************************************************
+
+Bug Life Cycle or Defect Life Cycle
+
++++++++++++++++++++++++++++++
+Module 3
+
+Agile & JIRA
+
+++++++++++++++++++++++++++++++
+
+Agile  Model / Agile Process / Agile Methodology
+
+It is an interative and incremental Model or approach
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
