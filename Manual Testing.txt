@@ -1018,6 +1018,123 @@ It is an interative and incremental Model or approach
 
 
 
+********************************************************
+Mar 13th  - Monday
+********************************************************
+
+Scrum : 
+
+Scrum is a framework throught which we build/develop software product/applictaion using agile princliples.
+
+Agile Principles / Advantages :
+
+1) Customer no need to wait for long time 
+2) we develop  , test and release piece of software to the customer with few features.
+3) we can accept/accomodate requirement changes 
+
+
+
+Scrum includes a group of people called Scrum Team or Squad .
+
+Noramlly Scrum team consists of 5-9 members in worst case upto 12 members.
+
+1) Product Owner / Project Manager
+2) Scrum Master 
+3) BA's 
+4) Dev Team
+5) QA Team
+
+Product Owner :
+
+- Define the features of the product
+- Prioritize features accroding to Market value or client needs
+- adjust features and priority for every iteration
+- accept and reject the work results 
+
+Scrum Master : 
+
+The main role is facilitating and driving agile process .
+
+He will sending invitations for different ceremonies .
+
+Scrum Terminologies :
+
+User Story : a feature / module / behaviour in a software application.
+
+Epic : Collection of user stories 
+
+Product Backlog :
+
+contains list of user storues . prepared by Product Owner.
+
+Sprint / Iteration : Period of time to complete a user stories.
+mostly 2 weeks 
+
+--------------------------------------
+Ceremonies or meeting in Scrum :
+--------------------------------------
+
+1. Sprint planning Meeting :
+
+Meeting conducted within team to define what can be delivered within the sprint.
+
+Stoy points :
+
+0 1 1 2 3 5 8 13 
+
+
+2. Daily Standup or Daily Scrum Call
+
+15 to 30 minutes
+here they discuss 
+
+- what you have yesterday
+- what's plan for today
+- is there any blocker or issues 
+
+
+3. Sprint Review or Demo :
+
+this will be conducted at the end of the sprint to showcase the work been done to all stake holders
+
+4. Sprint Retrospective :
+
+this happens after sprint completion 
+
+here they discuss mainly 
+
+- what went well in the sprint 
+- what does not went well
+- what action items we can have 
+- staus of last action items
+
+
+
+
+5 . Backlog Grooming :
+
+
+This will be conducted in mid of the sprint to priortize the stories 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
