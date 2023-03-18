@@ -1588,23 +1588,112 @@ mysql>
 
 
 
+********************************************************
+Mar 18th  - Saturday
+********************************************************
 
 
 
 
+SELECT [ALL/DISTINCT] [LIMIT N] * or Column List from TableName
+[WHERE condition]
+[Group By]
+[Having Condition]
+[ORDER BY Column[s]]  [ASC/DESC]
 
 
+Aggregate Functions :
 
- 
+MAX 
+
+MIN 
+
+SUM
+
+AVG 
+
+SUB QUERIES :
+
+To find SECOND highest salary in emp table ?
+
+1st way :
+
+SELECT MAX(sal) FROM emp WHERE sal <> (SELECT MAX(sal) FROM emp);
+
+2nd Way :
 
 
+SELECT sal FROM (SELECT sal FROM emp ORDER BY sal DESC LIMIT 2) AS emp1 ORDER BY sal ASC LIMIT 1;
 
 
+SELECT sal FROM (SELECT sal FROM emp ORDER BY sal DESC LIMIT 3) AS emp1 ORDER BY sal ASC LIMIT 1;
+
+SELECT sal FROM (SELECT DISTINCT sal FROM emp ORDER BY sal DESC LIMIT 3) AS emp1 ORDER BY sal ASC LIMIT 1;
 
 
+JOINS :
+
+joins are used to retrive data from multiple tables :
+
+JOIN SYNTAX :
 
 
+SELECT Table1.Coulmn1 , Table1.Column2 ,.....
+       Table2.coulmn1 , Table2.Coulmn2 ,.....
+	   FROM TABLE <JOIN TYPE> Table2
+	   ON JOIN CONDITION;
+	   
+	   
+1. INNER JOIN : 
 
+It retrives only common records i.e matching records from join tables 	 
+
+SELECT Table1.Coulmn1 , Table1.Column2 ,.....
+       Table2.coulmn1 , Table2.Coulmn2 ,.....
+	   FROM TABLE JOIN Table2
+	   ON JOIN CONDITION;  
+
+
+SELECT emp.ename,emp.sal,emp.deptno,dept.dname,dept.loc FROM emp JOIN dept ON emp.deptno=dept.deptno;
+
+SELECT emp.ename,emp.sal,emp.deptno,dept.dname,dept.loc FROM emp INNER JOIN dept ON emp.deptno=dept.deptno;
+
+2. LEFT OUTER JOIN :
+
+It retrieves all records from left side table and corresponsing matching data from the right side table.
+
+SELECT Table1.Coulmn1 , Table1.Column2 ,.....
+       Table2.coulmn1 , Table2.Coulmn2 ,.....
+	   FROM TABLE LEFT OUTER JOIN Table2
+	   ON JOIN CONDITION; 
+
+SELECT emp.ename,emp.sal,emp.deptno,dept.dname,dept.loc FROM emp LEFT OUTER JOIN dept ON emp.deptno=dept.deptno;
+
+
+3. RIGHT OUTER JOIN :
+
+It retrieves all records from rigth side table and corresponsing matching data from the left side table.
+
+SELECT Table1.Coulmn1 , Table1.Column2 ,.....
+       Table2.coulmn1 , Table2.Coulmn2 ,.....
+	   FROM TABLE RIGHT OUTER JOIN Table2
+	   ON JOIN CONDITION; 
+
+4. FULL OUTER JOIN :
+
+It displays all records from join tables with corresponding matching data. 
+if no match occured NULL Displayed 
+
+
+SELECT Table1.Coulmn1 , Table1.Column2 ,.....
+       Table2.coulmn1 , Table2.Coulmn2 ,.....
+	   FROM TABLE FULL OUTER JOIN Table2
+	   ON JOIN CONDITION; 
+
+
+5. CROSS JOIN :
+It produces Cartesian product of the join tables.
+i.e Each record present in table1 is mapped to all recorss present in table 2.
 
 
 
