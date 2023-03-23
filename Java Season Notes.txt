@@ -1,0 +1,101 @@
+======================= Java Season - 1=======
+
+**********************************************
+Mar 23rd Thursday
+**********************************************
+
+Features of Java :
+
+1. Simple 
+
+
+
+
++ - *  /  %
+
+
+
+2 + 3 = 5 
+
++ is now overloaded to do power
+
+2 + 3 = 8
+
+
+Garbage Collector :
+
+2. Robust :
+
+3. Secure :
+
+
+4. OO Object Oriented Programming 
+
+Class
+Object
+Encapsulation
+Polymorphism
+Inheritance
+Abstraction
+
+5. Platform Independent
+6. Architectural Neutral 
+   Processor + RAM 
+7. Portability :
+
+     Architecture 
+---------------------------------------------------------------------
+\Features of Java :
+
+
+1. Simple
+
+- syntax is simialr to C++
+- removed confusing concepts like explicit pointers and Operator Overloading
+- memory management done by Garbage Collector in Java 
+
+
+2. Object Oriented Programming 
+
+OO is a methodology for development and maintance of application.
+
+1. Object
+2. Class
+3. Encapsulation
+4. Polymorphism
+5. Inheritance
+6. Abstraction
+
+3. Robust :
+
+- Strong mem management 
+
+- exception handling mechanism
+
+- type checking mechanism
+
+
+4. Secure :
+
+
+5. Platform Independent :
+
+here Platform means OS (operating System)
+
+6. Architectural Neutral :
+
+Architecture means Processor and RAM 
+
+7. Portable :
+
+Portable means Architecture (means one way of classification)
+
+IBM
+
+Apple
+
+Solaris
+
+WORA :  Write Once Run Anywhere
+
+-------------------------------------------------------------------------
