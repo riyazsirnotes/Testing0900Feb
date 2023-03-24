@@ -99,3 +99,66 @@ Solaris
 WORA :  Write Once Run Anywhere
 
 -------------------------------------------------------------------------
+
+
+**********************************************
+Mar 24th Friday
+**********************************************
+
+jdk installation :
+
+
+version : JAVA 11 or jdk 1.11
+
+https://www.oracle.com/in/java/technologies/downloads/
+
+Click on Java 11 tab
+
+Click on "Windows" tab
+
+Under Download 
+
+Click  on below link
+
+jdk-11.0.18_windows-x64_bin.exe
+
+
+Enter Oracle Credentials in below form
+
+
+Oracle account sign in
+
+
+if you don't have Oracle Account create a new one from below link
+
+
+https://profile.oracle.com/myprofile/account/create-account.jspx
+
+
+-----------------------------------------------
+Configuration of Java
+------------------------------------------------------------
+
+In Environment VAribales
+
+Create 2 variables 
+
+
+1. JAVA_HOME
+
+Varibale Name : JAVA_HOME
+
+Value : path till jdk
+
+
+
+2.path : 
+
+Varibale Name : path
+
+Value : C:\Program Files\Java\jdk-11\bin
+
+C:\Users\Riyaz>java -version
+java version "11.0.18" 2023-01-17 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.18+9-LTS-195)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.18+9-LTS-195, mixed mode)
