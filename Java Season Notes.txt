@@ -108,7 +108,7 @@ Mar 24th Friday
 jdk installation :
 
 
-version : JAVA 11 or jdk 1.11
+version : JAVA SE 11 or jdk 1.11
 
 https://www.oracle.com/in/java/technologies/downloads/
 
@@ -162,3 +162,93 @@ C:\Users\Riyaz>java -version
 java version "11.0.18" 2023-01-17 LTS
 Java(TM) SE Runtime Environment 18.9 (build 11.0.18+9-LTS-195)
 Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.18+9-LTS-195, mixed mode)
+
+
+
+
+**********************************************
+Mar 27th Monday
+**********************************************
+
+
+										jdk folders
+										
+										
+				lib							bin/tools						jre
+
+
+
+lib : Library 
+
+predefined stuff which helps in designing / development of java applications
+
+
+										lib
+										|
+			collection of jars ( jar is similar to zip folder)
+										|
+			collection of packages (package is similar to folder )
+										|
+			Collection of Classes 				and 			Interfaces  
+							|										|					
+					________________						   ________________
+					|				|						  |				 	|
+				variables		methods                Constants/Fields		Abstract methods
+				
+				
+				
+
+----------------------------------------------------------------------------
+
+bin : binaries (some excutable files)
+
+			
+javac : tool or command ussed to compile java program
+ 
+ syntax 
+ 
+javac FileName.java
+
+
+
+java : this tool or command is used to run/execute the compiled java program
+
+
+syntax
+
+
+java FileName
+
+
+-------------------------------------------------------------------------------
+
+jre :  (Java Runtime Environment)
+
+
+JVM are abstract machines 
+
+having tasks with no body
+
+who will fill the tasks body ? Ans : JRE 
+
+
+
+										JVM (Java Virtual Machine)
+													|
+							------------------------------------------------						
+							|						|					     |
+						CLSS						EE						GC
+					Class Loader Subsystem		Execution Engine		Garbage Collector
+					
+CLSS:
+
+- Loading
+
+- Linking 
+
+- Intialization
+					
+										
+
+
+			
