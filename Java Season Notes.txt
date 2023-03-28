@@ -239,16 +239,147 @@ who will fill the tasks body ? Ans : JRE
 							|						|					     |
 						CLSS						EE						GC
 					Class Loader Subsystem		Execution Engine		Garbage Collector
-					
-CLSS:
+													|
+											 ________________
+											 |				 |
+										Interpreter	        JIT compiler (Just In Time)
+										
+CLSS:											
 
 - Loading
 
 - Linking 
 
 - Intialization
-					
-										
 
+
+
+**********************************************
+Mar 28th Tuesday
+**********************************************
+
+					
+----------------------------------
+EE	 :
+
+Interpreter	:  converts BC to MC   based on OS  and also execute
+
+JIT Compiler : 
+
+comes to picture when we have loops or iterative conditions 
+to improve high performance
+
+
+-----------------------------------------
+
+GC (Garbage Collection)
+
+1) Mark  - to identify the varibales or objects which can be deallocated
+
+
+2) Sweep - to deallocate the memory
+
+
+----------------------------------------------
+
+Structure of Java Program
+
+-----------------------------------------------
+
+consists of 4 sections
+
+1. Documentation Section
+
+2. Package Section
+
+3. Import Section
+
+4. Class / Interface Section
+
+
+
+--------------------------------------------------------------
+
+1. Documentation Section :
+
+used for documentation purpose means comments
+
+single line comment  by means of 
+
+//
+
+multi line comment 
+
+/*  ljlkjkljlkj
+
+kjhjkhkjhjkhkj
+
+kjhkjhkjhjkhhk */
+
+
+--------------------------------------------------------------
+
+
+2. Package Section :
+
+Package means Folders
+
+in java is package is used for logical grouping of your classes and interfaces
+
+syntax :
+
+package package-name;
+
+e.g  
+
+package mar27th;
+
+package smoke;
+
+--------------------------------------------------------------
+
+
+3. Import Section 
+										
+3 ways to use import statement
+
+i)  import packname.*;   ==> this is not recommended in real time 
+
+
+e.g 
+
+import java.util.*;
+
+
+ii) import packname.ClassName;
+
+e.g import java.util.Scanner; ==> this is recommended
+
+
+
+Note : 
+
+default package of java is 
+
+java.lang package , there is no need to import java.lang
+
+---------------------------------------------------------------
+
+Class or Interface Section
+
+
+syntax :
+
+
+access-specifier access-modifier class ClassName
+{
+
+//variables
+
+
+//methods
+
+
+}
 
 			
