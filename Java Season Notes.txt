@@ -382,4 +382,149 @@ access-specifier access-modifier class ClassName
 
 }
 
+
+**********************************************
+Mar 29th Wednesday
+**********************************************
+
+------------------------------------------
+Naming Convention
+------------------------------------------
+
+
+packages ( all lower case  ) :
+
+e.g 
+
+
+java.util
+
+org.openqa.selenium
+
+based
+
+smoke
+
+Classes / Interfaces  :  Title Case
+
+e.g for Classes
+
+Scanner
+
+Sum
+
+ChromeDriver
+
+HashSet
+
+
+e.g of Interfaces 
+
+List
+
+Iterator
+
+WebDriver
+
+
+variables/Objects :  (Camel Case =  Lower Case + Title Case)
+
+e.g 
+
+x
+
+netSalary
+
+costOfItem
+
+allLinks
+
+rollNo
+
+
+methods / Abstract methods :  (Camel Case =  Lower Case + Title Case)
+
+if some CamelCase along if braces (  
+
+
+e.g 
+
+println
+
+nextInt
+
+main 
+
+
+ Constants/Fields  :  (All upper case)
+ 
+ e.g 
+ 
+ 
+ PI
+ 
+ MAX_LIMIT
+ 
+ 
+ =====================================================
+ ============ Variables in Java ======================
+ =====================================================
+ 
+variables are classified based on location and behviour into 3 types
+
+				
+									Variables
+									
+									
+			1)Local					  2)Instance or non-static		3) Static 
 			
+			
+ =====================================================
+ ============ Memory Blocks in Java===================
+ =====================================================
+ 
+ 1) Class Area / Method Area
+ 
+ .class files
+ 
+ static variables
+ 
+ static methods
+ 
+ 
+ 2) Heap Area ( Dynamic memory allocation)
+ 
+ Objects
+ 
+ Arrays
+ 
+ 3) Java Stack Area (JSA)
+ 
+ local varibales
+ 
+ expressions 
+ 
+ 
+ current running logics
+ 
+ 4) String Constant Pool Area  (SCPA)
+ 
+ for String literals 
+ 
+ String s="Live Tech"
+ 
+ 
+ -------------------------------
+ Local Varibale 
+ -------------------------------
+ 
+ Def : Local varibales are the varibales which are declared inside methods
+ 
+ syntax of varibale :
+ 
+ access-specifier access-modifier data-type varibaleName = some value ; ==> declaration and initialization
+ 
+ 
+ access-specifier access-modifier data-type varibaleName; == > varibale declaration
+ 
+ varibaleName = some value ; ==> variable initialization 
