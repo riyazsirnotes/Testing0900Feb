@@ -503,8 +503,7 @@ variables are classified based on location and behviour into 3 types
  local varibales
  
  expressions 
- 
- 
+  
  current running logics
  
  4) String Constant Pool Area  (SCPA)
@@ -528,3 +527,72 @@ variables are classified based on location and behviour into 3 types
  access-specifier access-modifier data-type varibaleName; == > varibale declaration
  
  varibaleName = some value ; ==> variable initialization 
+ 
+ 
+ 			
+ =====================================================
+ ============ Data Types in Java   ===================
+ =====================================================
+ 
+ Java is strongly typed language
+		
+		
+					Data Types in Java
+					
+					
+		1) Primitive datatypes(8)		2) non-primitive datatypes
+													 or 
+												Derived datatypes  [arrays ,String , Objects etc..]
+
+ 												
+1) Def :
+
+ varibales which are declared inside methods
+
+2) where memory is allocated ?
+
+Java stack Area 
+
+3) When memory is getting allocated ?
+
+when the method is called (during execution)
+
+4) what is the calling style ?
+
+the variable name itself
+
+5) what is the scopr or life time ?
+
+till end of that method
+
+
+Note : 
+
+VariablesDemo1.java:14: error: variable y might not have been initialized
+System.out.println("y is "+y);
+
+JVM/CLSS won't intializa Local varibales ,
+
+It's the duty / resposibity of Programmer / devloper to initilize some value to local variable
+
+??????????????????????????????
+Download Eclipse 
+
+https://www.eclipse.org/downloads/
+
+
+Click "Download package "  ==> MORE DOWNLOADS  on Right Side
+
+Click on "Eclipse 2021-09 (4.21)" link
+
+choose second one "Eclipse IDE for Enterprise Java and Web Developers"
+
+Click on Windows x86_64
+
+
+
+??????????????????????????????
+
+
+
+ 
