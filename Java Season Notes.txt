@@ -561,7 +561,7 @@ when the method is called (during execution)
 
 the variable name itself
 
-5) what is the scopr or life time ?
+5) what is the scope or life time ?
 
 till end of that method
 
@@ -595,4 +595,76 @@ Click on Windows x86_64
 
 
 
+**********************************************
+Apr 4th Tuesday
+**********************************************
+
+ =====================================================
+ ============ Variables in Java (cont..) ======================
+ =====================================================
  
+variables are classified based on location and behviour into 3 types
+
+				
+									Variables
+									
+									
+			1)Local					  2)Instance or non-static		3) Static 
+
+
+2)Instance or non-static	
+
+ 												
+1) Def :
+
+ variables declared inside a class but outside of method .
+ 
+2) When memory is getting allocated ?
+
+when you create an instance or object for the class where variable is declared ,
+then only memory will get allocated .
+
+how to create an instance or object of class ?
+
+ClassName objectName=new ClassName();
+
+
+3) where memory is allocated ?
+
+Heap Area
+
+4) what is the calling style ?
+
+
+objectName.variableName
+
+5) what is the scope or life time ?
+
+till the last usage of object
+
+================================
+Static  Variables
+=================================
+
+												
+1) Def :
+
+ variables declared inside a class but outside of method having static modifier or keyword
+ 
+2) When memory is getting allocated ?
+
+during compile time 
+
+3) where memory is allocated ?
+
+Class Area / Method Area
+
+
+4) what is the calling style ?
+
+ClassName.variableName
+
+
+5) what is the scope or life time ?
+
+till end of program
