@@ -670,7 +670,7 @@ ClassName.variableName
 till end of program
 
 **********************************************
-Apr 5th Tuesday
+Apr 5th Wednesday
 **********************************************
 
  =====================================================
@@ -732,3 +732,142 @@ R rate of interest
 
 use methods concept;
 ???????????????????????????????????????????????????
+
+
+
+**********************************************
+Apr 6th Thursday
+**********************************************
+
+
+OOPs (Object Oriented Programming)
+
+before OOP there was POP (Procedure Oriented Programming)
+
+e.g  C lang , COBOL, BASIC , FORTAN etc ..
+
+Object Oriented Programming 
+
+e.g 
+
+C++ , Java , .net 
+
+
+1) Object
+2) Class 
+3) Encapsulation
+4) Polymorphism
+5) Inheritance
+6) Abstraction
+
+
+Object : 
+
+anything that exists is an object
+
+e.g 
+
+Fan , Chair , Dog ,bank account number etc ..
+
+
+Object has 3 characteristics
+
+i) State : Data or paramters that represents an object (variable's)
+
+for Marker :
+
+length 12 cm
+shape cylindrical
+color white
+
+
+ii) Behaviour : task's or actions performed by Object ( method's)
+
+e.g for Dog 
+
+eating
+drinking
+sleeping
+
+iii) identity : a unique Id defined by JVM to identify object
+
+---------------------------------------------------------
+Class :
+
+A blueprint or template from which you can create an object 
+
+e.g 
+
+animal
+
+automobiles
+
+======================================================
+===Object Creation Techniques ========================
+======================================================
+1) using new operator
+
+
+ClassName objectName=new ClassName();
+
+2) using Static Factory Method (SFM)
+
+
+ClassName objectName=ClassName.methodName();
+
+e.g
+
+By by=By.id("username");
+
+here id is a static method present in By class which return object of By class
+
+
+3) using Non-Static Factory Method (NSFM)
+
+ClassName1 object1=new ClassName1();
+
+ClassName2 object2=object1.methodName();
+
+
+XSSFWorkbook
+
+XSSFSheet
+
+XSSFWorkbook wb=new XSSFWorkbook();
+
+there is a non-static method called getSheet(String) in XSSFWorkbook class  which will return object of XSSFSheet class
+
+XSSFSheet ws=wb.getSheet("Sheet1");
+
+
+4) using Clone method
+
+5) using literals
+
+String str="Live Tech";
+
+6) using deserialization 
+
+no syntax
+
+this is used by JVM 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
