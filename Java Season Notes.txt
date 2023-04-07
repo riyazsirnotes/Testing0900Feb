@@ -854,6 +854,83 @@ this is used by JVM
 
 
 
+**********************************************
+Apr 7th Friday
+**********************************************
+
+
+3) Encapsulation 
+
+Encapsulation in Java is a process of data(varibales) and actions(methods) on data together into a single unit.
+
+so every class is almost encapsulated
+
+Encapsulation = Data Hiding +  Abstraction
+
+e.g 
+
+Medicine like coldact capsule 
+
+ATM mahcine 
+
+To Make Tightly Encapsulated ,
+
+we use "private" access-specifier or access-label
+
+The field Bank.balance is not visible
+
+To overcome this , we will use public methods inside the class 
+from which we retrive the private varibales
+
+
+//getters and setters
+
+are just public methods to retrive or modify private varibales 
+through some validation
+
+
+-------------------
+PrintStream Class
+
+4 methods 
+
+1. println  ==> it will print and moves the cursor to next line
+
+2. print  ==> print and cursor will stays in same 
+
+* * * * *
+  * * *
+    *
+3. printf same like printf from c lang meant for formating 
+
+4. format == formating
+
+
+obj1.setClock(1, 3, 23);
+System.out.println(hr+":"+min+":"+sec);
+1:3:23
+
+
+01:03:23
+
+?????????????????????????????????
+Create a class DOB
+
+use setter and getter 
+to print your dob
+
+expected :
+
+e.g january 5th 1989
+
+DD-MM-YYYY
+
+05-01-1989
+???????????????????????????????????
+
+
+
+
 
 
 
