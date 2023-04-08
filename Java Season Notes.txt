@@ -931,20 +931,139 @@ DD-MM-YYYY
 
 
 
+**********************************************
+Apr 8th Saturday
+**********************************************
+
+Flow control or Control Flow in Java
+
+
+1) Decission making or Selection statements
+
+i) if else 
+
+syntax :
+
+if(condition)
+{
+
+//body
+
+}
+else
+{
+
+// code when condition is false
+
+}
+
+
+if only
+
+if else
+
+if else if else 
+
+if else if else if ...... else
+
+------------------
+To scan or to take values during runtime  we use methods in Scanner class
+
+java.util
+
+
+if we want to take integer value
+
+nextInt(): int
+
+System.out.println("Hello World");
+
+System is class present in java.lang
+
+out is an predfined object of PrintStream(java.io) having static keyword
+
+
+
+next() : String
+next(String) : String
+next(Pattern) : String
+nextBoolean() : boolean
+nextByte() : byte
+nextByte(int) : byte
+nextDouble() : double
+nextFloat() : float
+nextInt() : int
+nextInt(int) : int
+nextLine() : String
+nextLong() : long
+nextLong(int) : long
+nextShort() : short
+nextShort(int) : short
+
+
+ii) switch
+
+input can be byte , short ,int , char , String (from java 1.5)
+
+switch(input)
+{
+
+case a : // action
+         break;
+		 
+case b : // action 
+		 break;
+		 
+		 |
+		 
+		 |
+default : // default action
+         		 
+         
 
 
 
 
+}
 
 
+?????????????????????????
+
+for 1030 batch
+
+use Switch case to launch different browser 
+
+chrome
+
+firefox
+
+edge
+
+????????????????????????????????
 
 
+------------------------------------
+Loops
+-------------------------------------
+
+for loop :
 
 
+for(initialization ; condition ; increment or decrement)
+{
+
+//body or statements
+
+}
 
 
+while loop :
+
+while(condition)
+{
+//body or statements
+increment or decrement;
 
 
-
-
+}
 
