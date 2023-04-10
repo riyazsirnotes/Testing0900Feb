@@ -1067,3 +1067,62 @@ increment or decrement;
 
 }
 
+
+
+**********************************************
+Apr 8th Saturday
+**********************************************
+
+
+this : 
+
+when we have local varibales same as intance variables , local variables dominite
+
+to overcome this , we are using "this" keyword cum operator
+
+this is keyword which refers or replaces the current calling object reference
+
+-----------------------------
+Polymorphism
+-----------------------------
+
+poly means many
+
+morph means forms 
+
+
+
+The method add(int, int) in the type Sum is not applicable for the arguments (double, double)
+
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	The method add(int, int) in the type Sum is not applicable for the arguments (double, double)
+
+The method add(int, int) in the type Sum is not applicable for the arguments (long, long)
+
+
+method signature :
+
+ methodName + arguments
+ 
+
+Method Overloading :
+
+methodName is same but method signature is different
+
+Method Overriding :
+
+method signature is same
+
+
+
+Method Overloading :
+
+
+ i)arguments  having different datatypes 
+ 
+ ii) variance in no of arguments
+ 
+ iii) change in order of arguments (Not prefered)
+ 
+ 
+ 
