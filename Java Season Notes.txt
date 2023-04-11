@@ -1070,7 +1070,7 @@ increment or decrement;
 
 
 **********************************************
-Apr 8th Saturday
+Apr 10th Monday
 **********************************************
 
 
@@ -1126,3 +1126,79 @@ Method Overloading :
  
  
  
+**********************************************
+Apr 11th Tuesday
+**********************************************
+
+
+Constructor :
+
+
+is a method having same name as ClassName
+
+
+Rules of Constructor :
+
+i) Constructor name should be same as Class name.
+
+ii) Constructor doesn't have return type 
+
+Q) what happens if a return-type is give 
+
+Ans )  it will be treated as normal or concrete method
+
+iii) use public or protected access-specifier
+
+default and private are not encouraged
+
+iv) dont't specify any access-modifier (like static , abstract etc )
+
+it will give error if specified
+
+
+							Constructor
+							
+							
+	default constructor 				paramterized Constructor
+	or
+	non-paramterized
+	
+	
+---------------
+Constructor Overloading
+----------------
+
+
+?????????????????????????????????????
+
+generate Aadhar card number 
+
+
+5123 4258 0124
+
+?????????????????????????????????????
+
+Create Aadhar
+
+create some constructor's 
+
+Aadhar(String panNo)
+ etc
+ 
+ 
+ expectd o/p :
+ 
+ 4521 4578 0123
+
+????????????????????????????????????
+
+
+---------------------------
+
+Inheritance
+
+----------------------------
+
+Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+
+
