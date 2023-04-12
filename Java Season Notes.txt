@@ -1202,3 +1202,21 @@ Inheritance
 Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object.
 
 
+
+**********************************************
+Apr 12th Wednesday
+**********************************************
+
+extends is a keyword in java used for inheritance
+
+class B extends A
+
+here 
+
+Class B   - child / Derived / Sub  class 
+
+Class A   - parent / Super class 
+
+
+
+
