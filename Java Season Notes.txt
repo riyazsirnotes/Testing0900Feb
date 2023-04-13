@@ -1215,7 +1215,73 @@ here
 
 Class B   - child / Derived / Sub  class 
 
-Class A   - parent / Super class 
+Class A   - parent / Base / Super class 
+
+
+
+**********************************************
+Apr 13th Thursday
+**********************************************
+
+Method overiding :
+
+two methods having same signature defined in two class having Parent and child relationship(inheritance)
+
+		// case 1
+		
+		// P obj1=new P();
+		
+		
+		// case 2
+		
+		//C obj1=new C();
+		
+		// case 3
+		
+		P obj1=new C();
+		
+		System.out.println(obj1.x);
+		 
+		 obj1.m1(); 
+		
+		// case 4
+		
+		//C obj1=new P();  //not valid 
+		
+		
+Super : 
+
+it is a keyword cum operator , which a non-static ,
+used to refer Current object Parent Reference
+
+super can be used to refer 
+
+Parent's variable
+Parent's method
+Parent constructor
+
+---------------------------------
+Abstraction
+----------------------------------
+
+
+								Abstraction
+								
+								
+			Abstract class						Interfaces
+			
+			( 0 to 100 abstarction) 			(pure abstarction 100 % )
+
+
+abstract method syntax :
+
+access-specifier abstract return-type methodName(paramters or arguments);
+
+
+
+
+
+
 
 
 
