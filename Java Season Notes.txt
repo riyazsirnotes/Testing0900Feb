@@ -1278,6 +1278,33 @@ abstract method syntax :
 access-specifier abstract return-type methodName(paramters or arguments);
 
 
+**********************************************
+Apr 14th Friday
+**********************************************
+
+-----------------------
+Interface
+-----------------------
+
+syntax 
+
+
+access-specifier modifier interface InterfaceName
+{
+
+// Constants/Fields
+
+access-specifier static final data-type constantName = value;
+
+here access-specifier mostly use public only
+
+
+access-specifier abstract return-type methodName(paramters or arguments);
+
+here access-specifier mostly use public only
+
+
+}
 
 
 
