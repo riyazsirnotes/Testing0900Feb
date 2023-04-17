@@ -9,3 +9,136 @@ Apr 14th Friday
 **********************************************
 
 Selenium Architecture 
+
+SearchContext(I)
+
+WebDriver(I) - 6 sub (I)  & 13 m
+
+RemoteWebDriver (C) 
+
+	ChromiumDriver (C)         FirefoxDriver(C)   InternetExplorerDriver(C) SafariDriver (C)
+
+ChromeDriver(C)    EdgeDriver(C)
+
+
+**********************************************
+Apr 17th Monday
+**********************************************
+
+
+how to download selenium jar or lib ?
+and add to java project ?
+
+
+https://www.selenium.dev/
+
+
+Click on "Downloads"
+
+Latest stable version 4.8.3 (we are not going to use this)
+
+
+Previous Releases
+Here you can find a more complete list of Selenium releases.
+
+
+click on releases hyperlink
+
+Selenium 3.141.59  (more stable version used for long years)
+
+
+download 
+
+selenium-server-standalone-3.141.59.jar
+
+how to add selenium jar to java project ?
+
+In Eclipse , right click on project
+
+goto Build path ---> configure build path , click on it
+
+Click on "libraries" tab
+
+Click on classpath ==> click on "Add External jars"
+
+go to / browse to the place where you have kept the jar
+
+and select the jar
+
+click on open 
+
+Apply
+
+apply and close
+
+then you should see selenium jar under "Referenced Librariees"
+
+
+-------------------------------------------------------------
+
+org.openqa.selenium
+
+
+===============================================
+===== Launching or Startin of Web browser =====
+===============================================
+
+now-a-days 
+
+we use Chrome , Edge , Firefox , Safari
+
+how to launch chrome ?
+
+ChromeDriver (C) 
+
+org.openqa.selenium.chrome 
+
+
+Below are the construtors for ChromeDriver class 
+
+ChromeDriver()
+ChromeDriver(ChromeDriverService)
+ChromeDriver(ChromeDriverService, ChromeOptions)
+ChromeDriver(ChromeOptions)
+
+ChromeDriver(Capabilities)  -- getting depricated
+ChromeDriver(ChromeDriverService, Capabilities) -- getting depricated
+
+
+Exception in thread "main" java.lang.IllegalStateException: 
+The path to the driver executable must be set by the 
+webdriver.chrome.driver 
+system property; 
+for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver.
+ The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+
+
+how to fix above exception ?
+
+https://chromedriver.chromium.org/downloads
+
+
+====================================
+2nd way of launching browser
+using WebDriverManger 
+======================================
+
+webdriver manager jar download
+
+
+https://github.com/bonigarcia/webdrivermanager/releases
+
+webdrivermanager-5.3.2
+
+	WebDriverManager.chromedriver().setup(); 
+	
+	the above statement will download the executable in a temp folder 
+	for the current browser verison
+	
+???????????????????????????????????????
+Assignment 
+
+Launch firefox browser and edge browser 
+using above two ways
+
+???????????????????????????????????????	
