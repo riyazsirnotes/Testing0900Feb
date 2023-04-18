@@ -142,3 +142,28 @@ Launch firefox browser and edge browser
 using above two ways
 
 ???????????????????????????????????????	
+
+
+
+**********************************************
+Apr 18th Tuesday
+**********************************************
+
+
+
+Exception in thread "main" java.lang.IllegalStateException:
+ The path to the driver executable must be set by the 
+ webdriver.gecko.driver
+ system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+
+
+https://github.com/mozilla/geckodriver/releases
+
+
+https://github.com/mozilla/geckodriver/releases/download/v0.33.0/geckodriver-v0.33.0-win32.zip
+
+Exception in thread "main" java.lang.IllegalStateException: 
+The path to the driver executable must be set by the 
+webdriver.edge.driver
+
+ system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/MicrosoftWebDriver. The latest version can be downloaded from http://go.microsoft.com/fwlink/?LinkId=619687
