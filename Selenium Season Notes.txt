@@ -167,3 +167,248 @@ The path to the driver executable must be set by the
 webdriver.edge.driver
 
  system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/MicrosoftWebDriver. The latest version can be downloaded from http://go.microsoft.com/fwlink/?LinkId=619687
+
+
+------------------------------------
+Methods In WebDriver (13 methods)
+------------------------------------
+
+6 sub interfaces
+13 methods
+
+ImeHandler
+Navigation
+Options
+TargetLocator
+Timeouts
+Window
+
+close() 
+findElement(By)
+findElements(By)
+get(String)
+getCurrentUrl()
+getPageSource()
+getTitle()
+getWindowHandle()
+getWindowHandles()
+manage()
+navigate()
+quit()
+switchTo()
+
+-------------------------------------------------------------
+get(String): void
+
+here argument is the URL of the application
+
+this will launch the application
+
+-------------------------------------------------------------
+close() : void
+
+this will close the window / tab on which webdriver focus is 
+
+-------------------------------------------------------------
+
+getTitle() : String
+
+this will return the title of the page in string format
+
+
+
+-------------------------------------------------------------
+getCurrentUrl() : String
+
+this will return the url presnt in address bar in string format
+
+
+
+-------------------------------------------------------------
+getPageSource() : String
+
+this will return the html code in String format
+
+-------------------------------------------------------------
+quit() : void
+
+
+will close the tabs/windows opened during that webdriver session
+
+
+
+-------------------------------------------------------------
+
+
+**********************************************
+Apr 19th Wednesday
+**********************************************
+
+
+-------------------------------------------------------------
+
+getWindowHandle() : String
+
+handle is nothing but a unique ID given for each tab/window
+
+this method will return the Id of the tab/window on which webdriver focus
+
+-------------------------------------------------------------
+
+getWindowHandles() : Set<String>
+
+
+this will return the id's of all tabs/windows opened till that point
+
+
+-------------------------------------------------------------
+
+navigate(): Navigation
+
+
+back()
+forward()
+refresh()
+to(String)
+to(URL)
+
+
+-------------------------------------------------------------
+manage() : Options
+
+To handle cookies below methods :
+addCookie(Cookie)
+deleteAllCookies()
+deleteCookie(Cookie)
+deleteCookieNamed(String)
+getCookieNamed(String)
+getCookies()
+
+to manage the synchronization : (this will be discussed in Season 2 under Wait concepts)
+
+timeouts()
+
+
+to manage the window size etc 
+
+window():
+
+fullscreen()
+getPosition()
+getSize()
+maximize()
+setPosition(Point)
+setSize(Dimension)
+
+-------------------------------------------------------------
+
+switchTo() : TargetLocator
+
+
+activeElement()
+
+to switch the control to alert : (this will be discussed in Season 2 under Alerts Handling)
+
+alert()
+
+to switch the control to  window / tab : (this will be discussed in Season 2 under Multiple Window  Handling)
+
+window(String)
+
+to switch the control to  frames : (this will be discussed in Season 2 under Multiple frame  Handling)
+
+defaultContent()
+frame(int)
+frame(String)
+frame(WebElement)
+parentFrame()
+
+------------------------------------------------------------------
+
+findElement(By): WebElement
+
+------------------------------------------------------------------------
+findElements(By) : List<WebElement>
+
+============================================================================
+Locators or Locator Strategy in WebDriver (8)
+============================================================================
+className(String)
+cssSelector(String)
+id(String)
+linkText(String)
+name(String)
+partialLinkText(String)
+tagName(String)
+xpath(String)
+
+
+
+<input type="text" name="username" id="username" class="login_input" value="" fdprocessedid="o4k3hd">
+
+
+<a href="Register.php">New User Register Here</a>
+
+
+<tagname attribute1="value of attribute1"  attribute2="value of attribute2" .....> text on element </tagName>
+
+###################################################
+locator Strategy based on attributes :
+
+id(String) : By
+
+name(String) : By
+
+className(String) : By
+
+###################################################
+
+locator Strategy based on text on link :
+
+
+linkText(String): By
+
+partialLinkText(String) : By
+
+###################################################
+
+tagName(String) : By
+
+this strategy is used for multiple elements 
+
+
+NOt recommended for finding a single element
+
+###################################################
+
+based on combination of tagname , attributes and text
+
+xpath(String) : By
+
+cssSelector(String) : By
+
+###################################################
+
+==================================================================
+WebElement : (16 methods)
+
+
+clear()
+click()
+findElement(By)
+findElements(By)
+getAttribute(String)
+getCssValue(String)
+getLocation()
+getRect()
+getSize()
+getTagName()
+getText()
+isDisplayed()
+isEnabled()
+isSelected()
+sendKeys(CharSequence...)
+submit()
+
+
+==================================================================
