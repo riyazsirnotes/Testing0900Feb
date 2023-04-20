@@ -412,3 +412,116 @@ submit()
 
 
 ==================================================================
+
+**********************************************
+Apr 20th Thursday
+**********************************************
+
+Methods in WebElement (16) 
+
+-------------------------------------------------------------------
+
+sendKeys(CharSequence...): void
+
+this will type the text or string provided as parameter on the webelement
+
+
+-------------------------------------------------------------------
+click():void
+
+
+this will click the webelement
+
+
+-------------------------------------------------------------------
+getText() : String
+
+
+this will return the text present on the webelement
+
+-------------------------------------------------------------------
+clear() : void
+
+this will clear the text present on textbox ot textarea
+
+-------------------------------------------------------------------
+getAttribute(String): String
+
+this will return the attribute value in String format
+
+
+case 1: attribute having value 
+
+o/p : value of attribute
+
+
+case 2: no attribute
+
+o/p : null or empty
+
+
+case 3: attribute having no value assigned 
+
+o/p : true 
+
+-------------------------------------------------------------------
+
+getCssValue(String) : String 
+
+
+this is used to retrive the css values of webelement like
+
+color , font sixe ,font weight , etc ..
+ 
+-------------------------------------------------------------------
+
+getLocation(): Point
+
+this is used to get x,y coordinate  of the left most corner of webelement
+
+
+-------------------------------------------------------------------
+getSize() : Dimension
+
+this is used to get height and width  of  webelement
+
+-------------------------------------------------------------------
+
+
+getRect() : Rectangle 
+
+
+this is used to get x,y coordinate  of the left most corner of webelement
+this is used to get height and width  of  webelement
+
+-------------------------------------------------------------------
+
+isDisplayed(): boolean
+
+this is used to veirfy element is displayed or not
+
+-------------------------------------------------------------------
+isEnabled() : boolean 
+
+this is to verify element is enabled or not 
+
+
+-------------------------------------------------------------------
+isSelected() : boolean
+
+this is verify item is selected in dropdown , checkbox , radio button etc 
+
+-------------------------------------------------------------------
+getTagName() : String
+
+to retrive the tag name of webelement
+-------------------------------------------------------------------
+
+submit() : void 
+
+
+this is used to submit a form directly to server
+
+
+ 
+-------------------------------------------------------------------
