@@ -1308,8 +1308,56 @@ here access-specifier mostly use public only
 
 
 
+**********************************************
+Apr 25th Tuesday
+**********************************************
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&& Java Season - 2 &&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+Arrays :
+
+
+similar to variables but which can store many elements or items
+
+
+syntax :
+
+access-specifier access-modifier data-type[]  variableName={value1,value2...valuen};
+
+e.g.
+
+int[] a={10,20,30,40,50};
+
+
+syntax:
+
+access-specifier access-modifier data-type[]  variableName=new data-type[size or lenegth  or no of items in array];
 
 
 
+>>>>>> Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException:
+ Index 5 out of bounds for length 5
+	at apr25th.ArraysDemo3.main(ArraysDemo3.java:19)
+	
+>>>>>   Type mismatch: cannot convert from double to int
 
+Def of Arrays :
+
+Arrays are used to store similar or homogenous data-type values with fixed length.
+
+
+Dis ads :
+
+1. fixed length
+
+No growable nature 
+
+
+2. allows only similar data-type 
+
+
+3. No predfined methods 
 
