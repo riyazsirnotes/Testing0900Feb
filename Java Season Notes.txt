@@ -1361,3 +1361,107 @@ No growable nature
 
 3. No predfined methods 
 
+
+**********************************************
+Apr 26th Wednesday
+**********************************************
+
+
+Collection Framework
+
+
+java.util
+
+
+
+								Iterable(I)
+									|
+								Collection(I)
+									|
+					------------------------------------
+					|				|					|
+				List(I)			Queue(I)			 Set(I)						
+			
+			- ArrayList(C)							- HashSet(C)
+			
+			
+
+
+Collection(I)
+
+-----------------------------------
+add(E): boolean
+
+E is an element or item or object of any data-type
+
+-------------------------------------
+
+contains(Object) : boolean 
+
+it search for Element or Object in collection and returns 
+
+true if present
+false if not present
+
+-------------------------------------------
+
+isEmpty() : boolean
+
+to check collection is empty or not
+
+------------------------------------------------
+
+size() : int
+
+it returns no of objects or elements present in collection
+
+---------------------------------------------------
+
+remove(Object) : boolean
+
+It removes the object in collection and returns true 
+
+----------------------------------------------------
+
+**********************************************************
+**** Methods In List (I) *********************************
+**********************************************************
+
+get(int) : E 
+
+
+It retrives the Element presnet in index given as integer
+
+
+---------------------------------------------------
+
+remove(int) : E
+
+
+It removes the Element present at index given using interger
+
+-----------------------------------------------------
+
+add(int, E) == > will add Element at some index 
+addAll(int, Collection<? extends E>) == > will add collection at some index
+addAll(Collection<? extends E>)==> will add collection at the end
+
+---------------------------------------------------------
+
+
+
+**********************************************************
+**** Methods and Constructor's  In ArrayList(C) **********
+**********************************************************
+
+
+ArrayList()
+ArrayList(int)
+ArrayList(Collection<? extends E>)
+
+ArrayList al=new ArrayList();
+
+al.add(123);
+
+Element will get stored in indexed order
+
