@@ -1465,3 +1465,108 @@ al.add(123);
 
 Element will get stored in indexed order
 
+
+**********************************************
+Apr 27th Thursday
+**********************************************
+
+the default capacity of arraylist is 10
+
+when you create object of arraylist using default constructor
+
+ArrayList al=new ArrayList();
+
+
+
+
+-------------------------------
+
+ArrayList(int) : this will be used for larger capacity
+
+ArrayList al=new ArrayList(1000);
+
+--------------------------------------
+
+ArrayList(Collection<? extends E>) 
+
+ArrayList b=new ArrayList(1000);
+
+ArrayList al=new ArrayList(b);
+
+
+--------------------------------------------
+
+
+
+new Capaicty = Current Capacity * 3/2 +1
+
+new capacity = 10 *3/2 + 1
+
+
+
+
+[100, 200, 400, 500]
+Using for loop
+100
+200
+400
+500
+Using for-each or enchanced for loop
+100
+200
+400
+500
+
+
+when to go for for loop and for-each loop ?
+
+
+for loop when insertion order is preserved ( indexed format)
+
+for-each loop is used when insertion order is not preserved 
+
+
+----------------------------------------------------------------------------
+
+
+iterator :
+
+
+Iterator(I) : java.util
+
+hasNext(): boolean
+
+this will check is there any element present in next level
+
+
+next(): E
+
+
+this will retrive the element present in next level
+
+and also moves the cursor to next level
+
+
+
+************************
+**** Set(I) ************
+************************
+
+this collection concept is meant for collecting unique ( no duplicates) elements
+
+HashSet (C)
+
+
+HashSet()
+HashSet(int)
+HashSet(int, float)
+HashSet(int, float, boolean)
+HashSet(Collection<? extends E>)
+
+
+
+
+
+
+
+
