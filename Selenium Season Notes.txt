@@ -593,3 +593,32 @@ Select your birthday using Two ways
 
 
 
+**********************************************
+May 2nd Tuesday
+**********************************************
+
+Links Testing
+
+to find no of links present in a web page
+
+
+findElements(By) : List<WebElement>
+
+
+<a href="ForgotPassword.php">Forgot Password?</a>
+<a href="Register.php">New User Register Here</a>
+<a href="mailto:info@adactin.com">info@adactin.com</a>
+<a href="http://www.adactin.com">Adactin.com</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
