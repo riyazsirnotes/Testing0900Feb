@@ -611,14 +611,64 @@ findElements(By) : List<WebElement>
 <a href="http://www.adactin.com">Adactin.com</a>
 
 
+**********************************************
+May 3rd Wednesday
+**********************************************
 
 
 
+Exception in thread "main" org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=112.0.5615.138)
 
 
+selenium.StaleElementReferenceException
+
+stale element reference: element is not attached to the page document
 
 
+Reason: when there is a change in DOM (document object Model) , the reference's of
+webelement gets chnaged . so we get StaleElementReferenceException .
 
 
+Sol: recreate or reintialize the webelment or weblement's when there is a change in DOM
+
+also you can refresh the page after change in DOM
 
 
+-----------------------------------------------
+					Frameworks
+					
+		inbuilt						user-defined
+
+	junit							
+	testNG
+	Nunit
+	PyTest
+
+testNG = junit + Nunit
+
+
+????????????????????????
+
+Install TestNG
+
+in Eclipse ,
+go to help --> click on "Eclipse MArketplace"
+
+then enter "testng" in find textbox and click on "Go"
+
+then click on "install" button for "TestNG for Eclipse"
+
+
+????????????????????????????????
+
+
+Annotations in TestNG
+
+annotations means predefined code 
+
+
+@Test  == > this is the test case 
+            means steps to be executed
+			
+			
