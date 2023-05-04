@@ -671,4 +671,85 @@ annotations means predefined code
 @Test  == > this is the test case 
             means steps to be executed
 			
-			
+
+**********************************************
+May 4th Thursday
+**********************************************
+Annotations in TestNG (cont ...)
+
+@BeforeMethod
+this annoted method will be executed before each and every @Test annotated method
+
+
+@AfterMethod
+this annoted method will be executed after each and every @Test annotated method
+
+----------------------------------------
+Xpath Writing Techniques
+----------------------------------------
+
+XML path is a query lang to find XML nodes /HTML nodes
+
+								Xpath
+								
+			Absolute						Relative
+
+	(starts  from root means html)
+	
+	
+/html/body/table[2]/tbody/tr/td[2]/form/table/tbody/tr[2]/td/input
+
+___________________________________________________________
+Technique 1
+
+Xpath using tagname and attributes
+
+//tagname[@attribute='value of attribute']
+
+<input type="text" name="username" id="username" 
+class="login_input" value="" fdprocessedid="3ifxkr">
+
+//input[@id='username']
+
+___________________________________________________________
+Technique 2
+
+Xpath using tagname and text 
+
+//tagname[text()='text on element']
+
+<a href="Register.php">New User Register Here</a>
+
+//a[text()='New User Register Here']
+
+___________________________________________________________
+Technique 3
+
+Xpath using contains
+
+<a href="Register.php">New User Register Here</a>
+
+//tagname[contains(@attribute,'partial vlaue of attribute')]
+
+//tagname[contains(text(),'partial vlaue of attribute')]
+
+___________________________________________________________
+
+				Miscellenous Actions
+				
+org.openqa.selenium.interactions
+				
+Actions (C)
+
+	Actions(WebDriver) 	
+	
+	
+moveToElement(WebElement)
+moveToElement(WebElement, int, int)
+
+perform():void ==> this will execute the action methods
+
+build(): to integrate more than one actions methods
+
+dragAndDrop(WebElement, WebElement)
+dragAndDropBy(WebElement, int, int)
