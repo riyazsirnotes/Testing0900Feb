@@ -828,6 +828,111 @@ driver.switchTo().frame(String)
 driver.switchTo().frame(WebElement)
 
 
+**********************************************
+May 8th Monday
+**********************************************
+
+Frames Handling methods :
+
+frame(int)
+frame(String)
+frame(WebElement)
+
 
 	
-	
+defaultContent(): to switch from any frame to WebPage
+
+parentFrame(): to switch from child frame to parent Frame
+
+
+??????????????????????????????????????????///
+
+https://www.angelfire.com/super/badwebs/
+
+
+check in frame 2 the below text is available ?
+
+<b>Gratuitous use of frames is a common mistake of web
+designers.</b>
+
+
+switch to the frame 3 and link on below link ?
+
+Here's another  example 
+
+
+???????????????????????????????????????????????????????
+
+----------------------------------
+Alert Handling :
+----------------------------------
+
+accept():void ==> this will click on "OK" button
+dismiss():void ==> this will click on "Cancel" button
+getText() : String ==> this will return you the message or text present on alert
+sendKeys(String) : void ==> this is used to type some option in Alert text box
+
+
+Types of alerts :
+
+1. simple
+2. prompt 
+3. confirmation
+
+????????????????????????????????????????
+
+https://demo.guru99.com/v4/
+
+
+User ID :	mngr266311
+Password :	Admin123$
+This access is valid only for 20 days
+
+login to app using above credentials
+
+Click on "Delete Customer"
+
+enter some random Customer ID in textbox
+
+now click on "Submit" button
+
+you will get an alert
+
+retrive the text on the alert
+
+and click "Ok" on alert
+
+you will get on more alert
+
+handle this by click ok button 
+
+
+?????????????????????????????????????????????????????
+
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt
+
+
+-------------------------------------------------
+
+how to take Screenshot
+
+---------------------------------------------------
+TakesScreenshot (I):
+
+getScreenshotAs(OutputType<X>):X
+
+
+OutputType<T>
+BASE64
+BYTES
+FILE
+
+code to take screnshot:
+
+File srcFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		
+FileUtils.copyFile(srcFile, new File("D:\\002 Live Tech\\AdactinScreenshot1.png"));
+		
+		
+		
+		
