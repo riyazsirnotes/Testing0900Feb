@@ -933,6 +933,81 @@ File srcFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
 FileUtils.copyFile(srcFile, new File("D:\\002 Live Tech\\AdactinScreenshot1.png"));
 		
+
+
+**********************************************
+May 9th Tuesday
+**********************************************
 		
 		
+JavascriptExecutor(I)
+
+
+executeScript(String, Object...):Object
+
+
+here ... after Object means Vargs (means it can be Object array)
+
+first String argument/paramter string is javascript statement
+
+
+//To Scroll to bottom of page
 		
+js.executeScript("window.scroll(0,document.body.scrollHeight);");
+		
+
+
+WebElement element=driver.findElement(By.xpath("//span[text()='Best Sellers in Home & Kitchen']"));
+		
+//const element = document.getElementById("content");
+//element.scrollIntoView();
+		
+js.executeScript("arguments[0].scrollIntoView();", element);
+		
+		
+-----------------------------------------------------
+Waits or Synchronization or timeouts 
+-----------------------------------------------------
+
+0) Hard wait
+
+Thread.sleep(milli);
+
+1)implicit Wait
+
+upto Selenium 3.14.59
+driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+After Selenium	4.0	
+
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
+
+2) Explicit Wait
+
+data-gtm-bnr-imgname = 09052023-UHP-D-Main-P5-NikeSkechers-Upto40
+
+//a[contains(@data-gtm-bnr-imgname,'NikeSkechers-Upto40')] ==> 1 of 2
+
+//a[contains(@data-gtm-bnr-imgname,'NikeSkechers-Upto40') and @href] ==>  1 of 1
+
+3) Explcit Wait
+
+Wait(I)
+
+until(Function<? super F, T>)
+
+WebDriverWait(C)
+
+WebDriverWait(WebDriver, Clock, Sleeper, long, long)
+WebDriverWait(WebDriver, long)
+WebDriverWait(WebDriver, long, long)
+
+WebDriverWait myWait=new WebDriverWait(WebDriver, long);
+
+ExpectedConditions(C)
+
+visibilityOfElementLocated(By)
+
+
+myWait.unit(ExpectedConditions.visibilityOfElementLocated(By));
