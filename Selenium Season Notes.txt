@@ -1011,3 +1011,63 @@ visibilityOfElementLocated(By)
 
 
 myWait.unit(ExpectedConditions.visibilityOfElementLocated(By));
+
+
+
+**********************************************
+May 10th Tuesday
+**********************************************
+
+till 3.141.59
+
+
+WebDriverWait myWait=new WebDriverWait(WebDriver, long);
+
+- here long always represents SECONDS
+
+- the frequency of chekcing the condition is met or not is 500 milliseconds by default
+
+Things that can be improved in Explicit Wait are :
+
+- instead of always SECONDS why not milli secons , micro seconds etc 
+
+- the frequency of checking the condition is met or not can be manipulated 
+
+- why can't we implement exception handling mechanism in waits method
+
+
+-----------------------------
+FLuent Wait 
+-----------------------------
+FluentWait(C)
+
+construtors :
+
+FluentWait(T)
+FluentWait(T, Clock, Sleeper)
+
+
+new FluentWait(T)
+
+withTimeout(long, TimeUnit)
+pollingEvery(long, TimeUnit)
+
+-------------------
+Radio Button Testing
+
+------------------------
+
+Check box Testing
+----------------------------
+
+???????????????????????????????????????
+
+https://echoecho.com/htmlforms09.htm
+
+Check all check boxes ( Milk ,butter ,cheese )
+
+and print the checked attribute
+
+use for loop
+
+??????????????????????????????????????????????
