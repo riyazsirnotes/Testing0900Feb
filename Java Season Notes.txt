@@ -1729,7 +1729,116 @@ Armstrong number is a number that is equal to the sum of cubes of its digits
 pow(1,3)+pow(5,3)+pow(1,3)
 
 
+**********************************************
+May 11th Thursday
+**********************************************
+		
+--------------------------
+Java Season -3 
+--------------------------
+File Handling 
 
+
+File
+
+Folders
+
+java.io
+
+------------------------
+File (C)
+
+
+File(File, String)
+File(String) ==> use this for File object
+File(String, String)
+
+createNewFile():booelan
+
+this is to create new file 
+
+mkdir():boolean
+
+this is to create a new folder
+
+
+-------------------------
+FileInputStream(C)
+
+FileInputStream(File)
+FileInputStream(FileDescriptor)
+FileInputStream(String) ==> mostly used
+
+FileInputStream fis=new FileInputStream(String);
+
+here String is whole path of file
+
+
+---------------------------------------
+Excel Read and Write
+
+
+Apache :  give us classes for working with excels
+
+
+			.xls								.xlsx
+						
+		HSSFWorkbook(C)		Workbook(I)			XSSFWorkbook(C)
+		HSSFSheet(C)		Sheet(I)			XSSFSheet(C)
+		HSSFRow(C)			Row(I)				XSSFRow(C)
+		HSSFCell(C)			Cell(I)				XSSFCell(C)
+		
+how to download apache poi jars ?
+
+https://poi.apache.org/download.html
+
+or
+
+https://archive.apache.org/dist/poi/release/bin/
+
+
+download below zip file
+
+
+poi-bin-5.2.3-20220909.zip  		
+		
+			
+==================================
+Maven
+===================================
+
+Project management tool to manage jars / dependencies
+
+how to download and configure maven 
+
+https://maven.apache.org/download.cgi
+
+
+download below zip file 
+
+apache-maven-3.9.1-bin.zip 
+
+Maven Configuration:
+
+
+go to environment varibales
+
+MAVEN_HOME 
+D:\jars\apache-maven-3.9.1-bin\apache-maven-3.9.1
+
+
+M2_HOME
+D:\jars\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin
+
+path
+D:\jars\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin
+
+C:\Users\Riyaz>mvn -version
+Apache Maven 3.9.1 (2e178502fcdbffc201671fb2537d0cb4b4cc58f8)
+Maven home: D:\jars\apache-maven-3.9.1-bin\apache-maven-3.9.1
+Java version: 11.0.18, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-11
+Default locale: en_IN, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 
 
 
