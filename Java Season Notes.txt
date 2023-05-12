@@ -1841,4 +1841,54 @@ Default locale: en_IN, platform encoding: Cp1252
 OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 
 
+**********************************************
+May 12th Friday
+**********************************************
 
+
+Creating Maven Project :
+
+
+
+Group id: com.adactinhotelapp
+
+artifact id : DataDrivenAutomation
+
+
+src/main/java
+src/main/resources
+src/test/java
+src/test/resources
+
+
+org.apache.poi » poi
+
+org.apache.poi » poi-ooxml
+
+
+org.apache.poi » poi-scratchpad
+
+
+Reading Excel 
+
+
+	
+	 FileInputStream  f1=	new FileInputStream("D:\\002 Live Tech\\Book1.xlsx");
+	 
+	 XSSFWorkbook wb=new XSSFWorkbook(f1);
+	 
+	 XSSFSheet  ws=wb.getSheet("Sheet1");
+	 
+	 
+	 ws.getRow(1) : will give object of row
+	 
+	 
+Writing to Excel :
+
+case 1: modifying an existing cell
+
+
+case 2: creating a cell in existing row
+
+
+case 3: create Row and cell in it	 
